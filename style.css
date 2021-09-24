@@ -1,0 +1,59 @@
+:root{
+    --blanco: #ffff;
+    --oscuro: #212121;
+    --primario: #3367d6;
+    --white: #ffffff;
+    --grey: #414141;
+    --red: #d62d20;
+    --amarillo: #ffa700;
+    --blue: #3367d6;
+    --orange: #e34c26;
+    --green: #008744;
+    --blueReact: #61DBFB;
+    --gris: #757575;
+
+
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;      /*Esto sirve para reiniciar ñps valores */
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width: 120rem;
+    /* margin: ; */
+}
+
+.nav_bg {
+    background: var(--oscuro);
+}
+
+.nav__principal {
+    background: var(--oscuro);
+    color: var(--white);
+    text-align: right;
+    
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav__principal a {
+    background: var(--orange);
+}
+
+.titulo__me {
+    font-size: 2rem;   /*1rem = 10px*/
+    color: black;
+    text-align: center;
+    
+}
+
+.titulo__me span {
+    color: var(--primario);
+}
